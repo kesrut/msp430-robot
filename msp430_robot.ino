@@ -5,7 +5,7 @@ int LPHOTO = P1_4;  // set LPHOTO as P1.2 alias
 int RPHOTO = P1_7;  // set RPHOTO as P1.7 alias
 int MICINP = A5;    // set MICINP as A5   alias
 
-int MPOW   = 240;   // set motors to use 50% PWM (possible values 0-255)
+int MPOW   = 240;
 int MICTHRESH = 650; // set microphone trigger threshold (possible values 0-1023)
 
 byte generate_buzz = false ;
